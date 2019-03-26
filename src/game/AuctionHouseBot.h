@@ -3,7 +3,6 @@
 
 #include "World.h"
 #include "Config/ConfigEnv.h"
-//#include "ace/Vector_T.h"
 #include <vector>
 
 #define AHB_GREY        0

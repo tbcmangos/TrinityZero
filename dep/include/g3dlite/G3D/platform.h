@@ -208,7 +208,7 @@
     #endif
 #endif
 
-    #ifdef _DEBUG
+    /*#ifdef _DEBUG
         #pragma comment (linker, "/NODEFAULTLIB:libc.lib")
         #pragma comment (linker, "/NODEFAULTLIB:libcmt.lib")
         #pragma comment (linker, "/NODEFAULTLIB:msvcrt.lib")
@@ -220,15 +220,15 @@
         #pragma comment(linker, "/NODEFAULTLIB:libcd.lib")
         #pragma comment(linker, "/NODEFAULTLIB:libcmtd.lib")
         #pragma comment(linker, "/NODEFAULTLIB:msvcrtd.lib")
-    #endif
+    #endif*/
 
     // Now set up external linking
 
-    #ifdef _DEBUG
-        // zlib and SDL were linked against the release MSVCRT; force
-        // the debug version.
-        #pragma comment(linker, "/NODEFAULTLIB:MSVCRT.LIB")
-#   endif
+    //#ifdef _DEBUG
+    //    // zlib and SDL were linked against the release MSVCRT; force
+    //    // the debug version.
+    //    #pragma comment(linker, "/NODEFAULTLIB:MSVCRT.LIB")
+    //#endif
 
 #   ifndef WIN32_LEAN_AND_MEAN
 #       define WIN32_LEAN_AND_MEAN 1

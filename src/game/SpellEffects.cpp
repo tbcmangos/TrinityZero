@@ -1378,7 +1378,7 @@ void Spell::EffectDummy(uint32 i)
                         mod->spellId = m_spellInfo->Id;
                         mod->effectId = i;
                         mod->lastAffected = NULL;
-                        mod->mask = ACE_UINT64_LITERAL(0x0000000000000100);
+                        mod->mask = 0x0000000000000100ull;
                         mod->charges = 0;
                     ((Player*)unitTarget)->AddSpellMod(mod, true);
                     break;
@@ -1397,7 +1397,7 @@ void Spell::EffectDummy(uint32 i)
                         mod->spellId = m_spellInfo->Id;
                         mod->effectId = i;
                         mod->lastAffected = NULL;
-                        mod->mask = ACE_UINT64_LITERAL(0x0000000000000008);
+                        mod->mask = 0x0000000000000008ull;
                         mod->charges = 0;
                     ((Player*)unitTarget)->AddSpellMod(mod, true);
                     break;
