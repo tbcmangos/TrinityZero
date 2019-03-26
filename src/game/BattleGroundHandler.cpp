@@ -86,7 +86,7 @@ void WorldSession::HandleBattleGroundJoinOpcode( WorldPacket & recv_data )
     recv_data >> bgTypeId;                                  // battleground type id (DBC id)
     recv_data >> instanceId;                                // instance id, 0 if First Available selected
 
-    sLog.outError("BATTLEGROUND OPCODE "I64FMT" %u %u", guid, bgTypeId, instanceId);
+    sLog.outError("BATTLEGROUND OPCODE " I64FMT " %u %u", guid, bgTypeId, instanceId);
 
     bgTypeId = sBattleGroundMgr.GetBGTypeIdByMap(bgTypeId);
     if(!bgTypeId || bgTypeId > MAX_BATTLEGROUND_TYPES)

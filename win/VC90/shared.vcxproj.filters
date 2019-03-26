@@ -1,0 +1,293 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Database">
+      <UniqueIdentifier>{0c5d128d-0d69-4269-9aad-1ed64f2810b8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Database\DataStores">
+      <UniqueIdentifier>{2b4e7c34-c5ea-4c04-ab26-1f1a327d2af3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Log">
+      <UniqueIdentifier>{f9171170-98e5-4a29-b93f-8feb4191e231}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Util">
+      <UniqueIdentifier>{94ad46cf-4b3e-4845-b803-0aa6d95f9ba0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Config">
+      <UniqueIdentifier>{50977654-de4a-4a68-8cc2-5fa95f7ba0c2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Config\dotconfpp">
+      <UniqueIdentifier>{0e75e30d-7a68-4cf8-9554-53400aed14ae}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Auth">
+      <UniqueIdentifier>{5bb5e3bd-ede9-410b-9006-85b6dd9e3afc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="vmaps">
+      <UniqueIdentifier>{3f483e01-ed57-46c3-bde6-7bfb9823061a}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\src\shared\Database\Database.cpp">
+      <Filter>Database</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\shared\Database\DatabaseMysql.cpp">
+      <Filter>Database</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\shared\Database\DatabaseSqlite.cpp">
+      <Filter>Database</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\shared\Database\Field.cpp">
+      <Filter>Database</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\shared\Database\QueryResultMysql.cpp">
+      <Filter>Database</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\shared\Database\QueryResultSqlite.cpp">
+      <Filter>Database</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\shared\Database\SqlDelayThread.cpp">
+      <Filter>Database</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\shared\Database\SqlOperations.cpp">
+      <Filter>Database</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\shared\Database\SQLStorage.cpp">
+      <Filter>Database</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\shared\Database\dbcfile.cpp">
+      <Filter>Database\DataStores</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\shared\Database\DBCfmt.cpp">
+      <Filter>Database\DataStores</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\shared\Database\DBCStores.cpp">
+      <Filter>Database\DataStores</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\shared\Log.cpp">
+      <Filter>Log</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\shared\Base.cpp">
+      <Filter>Util</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\shared\Mthread.cpp">
+      <Filter>Util</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\shared\ProgressBar.cpp">
+      <Filter>Util</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\shared\Util.cpp">
+      <Filter>Util</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\shared\Config\Config.cpp">
+      <Filter>Config</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\shared\Config\dotconfpp\dotconfpp.cpp">
+      <Filter>Config\dotconfpp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\shared\Config\dotconfpp\mempool.cpp">
+      <Filter>Config\dotconfpp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\shared\Auth\AuthCrypt.cpp">
+      <Filter>Auth</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\shared\Auth\BigNumber.cpp">
+      <Filter>Auth</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\shared\Auth\Hmac.cpp">
+      <Filter>Auth</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\shared\Auth\Sha1.cpp">
+      <Filter>Auth</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\shared\vmap\BaseModel.cpp">
+      <Filter>vmaps</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\shared\vmap\CoordModelMapping.cpp">
+      <Filter>vmaps</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\shared\vmap\DebugCmdLogger.cpp">
+      <Filter>vmaps</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\shared\vmap\ManagedModelContainer.cpp">
+      <Filter>vmaps</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\shared\vmap\ModelContainer.cpp">
+      <Filter>vmaps</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\shared\vmap\SubModel.cpp">
+      <Filter>vmaps</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\shared\vmap\TileAssembler.cpp">
+      <Filter>vmaps</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\shared\vmap\TreeNode.cpp">
+      <Filter>vmaps</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\shared\vmap\VMapFactory.cpp">
+      <Filter>vmaps</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\shared\vmap\VMapManager.cpp">
+      <Filter>vmaps</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\shared\Common.cpp" />
+    <ClCompile Include="..\..\src\shared\ServiceWin32.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\src\shared\Database\Database.h">
+      <Filter>Database</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\shared\Database\DatabaseEnv.h">
+      <Filter>Database</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\shared\Database\DatabaseImpl.h">
+      <Filter>Database</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\shared\Database\DatabaseMysql.h">
+      <Filter>Database</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\shared\Database\DatabaseSqlite.h">
+      <Filter>Database</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\shared\Database\Field.h">
+      <Filter>Database</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\shared\Database\MySQLDelayThread.h">
+      <Filter>Database</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\shared\Database\QueryResult.h">
+      <Filter>Database</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\shared\Database\QueryResultMysql.h">
+      <Filter>Database</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\shared\Database\QueryResultSqlite.h">
+      <Filter>Database</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\shared\Database\SqlDelayThread.h">
+      <Filter>Database</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\shared\Database\SqlOperations.h">
+      <Filter>Database</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\shared\Database\SQLStorage.h">
+      <Filter>Database</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\shared\Database\dbcfile.h">
+      <Filter>Database\DataStores</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\shared\Database\DBCStores.h">
+      <Filter>Database\DataStores</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\shared\Database\DBCStructure.h">
+      <Filter>Database\DataStores</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\shared\Log.h">
+      <Filter>Log</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\shared\Base.h">
+      <Filter>Util</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\shared\ByteBuffer.h">
+      <Filter>Util</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\shared\Errors.h">
+      <Filter>Util</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\dep\include\mersennetwister\MersenneTwister.h">
+      <Filter>Util</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\shared\Mthread.h">
+      <Filter>Util</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\shared\ProgressBar.h">
+      <Filter>Util</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\shared\Timer.h">
+      <Filter>Util</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\shared\Util.h">
+      <Filter>Util</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\shared\Config\Config.h">
+      <Filter>Config</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\shared\Config\ConfigEnv.h">
+      <Filter>Config</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\shared\Config\dotconfpp\dotconfpp.h">
+      <Filter>Config\dotconfpp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\shared\Config\dotconfpp\mempool.h">
+      <Filter>Config\dotconfpp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\shared\Auth\AuthCrypt.h">
+      <Filter>Auth</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\shared\Auth\BigNumber.h">
+      <Filter>Auth</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\shared\Auth\Hmac.h">
+      <Filter>Auth</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\shared\Auth\Sha1.h">
+      <Filter>Auth</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\shared\vmap\AABSPTree.h">
+      <Filter>vmaps</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\shared\vmap\BaseModel.h">
+      <Filter>vmaps</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\shared\vmap\CoordModelMapping.h">
+      <Filter>vmaps</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\shared\vmap\DebugCmdLogger.h">
+      <Filter>vmaps</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\shared\vmap\IVMapManager.h">
+      <Filter>vmaps</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\shared\vmap\ManagedModelContainer.h">
+      <Filter>vmaps</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\shared\vmap\ModelContainer.h">
+      <Filter>vmaps</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\shared\vmap\NodeValueAccess.h">
+      <Filter>vmaps</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\shared\vmap\ShortBox.h">
+      <Filter>vmaps</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\shared\vmap\ShortVector.h">
+      <Filter>vmaps</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\shared\vmap\SubModel.h">
+      <Filter>vmaps</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\shared\vmap\TileAssembler.h">
+      <Filter>vmaps</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\shared\vmap\TreeNode.h">
+      <Filter>vmaps</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\shared\vmap\VMapDefinitions.h">
+      <Filter>vmaps</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\shared\vmap\VMapFactory.h">
+      <Filter>vmaps</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\shared\vmap\VMapManager.h">
+      <Filter>vmaps</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\shared\vmap\VMapTools.h">
+      <Filter>vmaps</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\shared\Common.h" />
+    <ClInclude Include="..\..\src\shared\ServiceWin32.h" />
+    <ClInclude Include="..\..\src\shared\SystemConfig.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="..\..\src\shared\revision.h" />
+  </ItemGroup>
+</Project>

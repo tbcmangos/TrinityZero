@@ -336,12 +336,12 @@ float gaussRandom(float mean = 0.0f, float stdev = 1.0f);
 #else
     template <class T>
     inline T min(const T& x, const T& y) {
-        return std::min<T>(x, y);
+        return (x < y) ? x : y;
     }
 
     template <class T>
     inline T max(const T& x, const T& y) {
-        return std::max<T>(x, y);
+        return (x > y) ? x : y;
     }
 
 #endif

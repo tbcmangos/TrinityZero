@@ -73,7 +73,7 @@ void WorldSession::HandlePetAction( WorldPacket & recv_data )
     CharmInfo *charmInfo = pet->GetCharmInfo();
     if(!charmInfo)
     {
-        sLog.outError("WorldSession::HandlePetAction: object "I64FMTD" is considered pet-like but doesn't have a charminfo!", pet->GetGUID());
+        sLog.outError("WorldSession::HandlePetAction: object " I64FMTD " is considered pet-like but doesn't have a charminfo!", pet->GetGUID());
         return;
     }
 
@@ -363,7 +363,7 @@ void WorldSession::HandlePetSetAction( WorldPacket & recv_data )
     CharmInfo *charmInfo = pet->GetCharmInfo();
     if(!charmInfo)
     {
-        sLog.outError("WorldSession::HandlePetSetAction: object "I64FMTD" is considered pet-like but doesn't have a charminfo!", pet->GetGUID());
+        sLog.outError("WorldSession::HandlePetSetAction: object " I64FMTD " is considered pet-like but doesn't have a charminfo!", pet->GetGUID());
         return;
     }
 
@@ -529,7 +529,7 @@ void WorldSession::HandlePetUnlearnOpcode(WorldPacket& recvPacket)
     CharmInfo *charmInfo = pet->GetCharmInfo();
     if(!charmInfo)
     {
-        sLog.outError("WorldSession::HandlePetUnlearnOpcode: object "I64FMTD" is considered pet-like but doesn't have a charminfo!", pet->GetGUID());
+        sLog.outError("WorldSession::HandlePetUnlearnOpcode: object " I64FMTD " is considered pet-like but doesn't have a charminfo!", pet->GetGUID());
         return;
     }
 
@@ -598,7 +598,7 @@ void WorldSession::HandlePetSpellAutocastOpcode( WorldPacket& recvPacket )
     CharmInfo *charmInfo = pet->GetCharmInfo();
     if(!charmInfo)
     {
-        sLog.outError("WorldSession::HandlePetSpellAutocastOpcod: object "I64FMTD" is considered pet-like but doesn't have a charminfo!", pet->GetGUID());
+        sLog.outError("WorldSession::HandlePetSpellAutocastOpcod: object " I64FMTD " is considered pet-like but doesn't have a charminfo!", pet->GetGUID());
         return;
     }
 

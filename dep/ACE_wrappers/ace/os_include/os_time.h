@@ -55,7 +55,7 @@ using std::difftime;
 
 # if !defined (ACE_HAS_POSIX_TIME)
 // Definition per POSIX.
-typedef struct timespec
+typedef struct
 {
   /// Seconds
   time_t tv_sec;

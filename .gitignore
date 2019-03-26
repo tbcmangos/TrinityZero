@@ -17,31 +17,46 @@ $RECYCLE.BIN/
 # Windows shortcuts
 *.lnk
 
-# =========================
-# Operating System Files
-# =========================
+# Prerequisites
+*.d
 
-# OSX
-# =========================
+# Compiled Object files
+*.slo
+*.lo
+*.o
+*.obj
+*.pdb
+*.tlog
+*.log
+*.idb
+*.res
 
-.DS_Store
-.AppleDouble
-.LSOverride
+# Precompiled Headers
+*.gch
+*.pch
 
-# Thumbnails
-._*
+# Compiled Dynamic libraries
+*.so
+*.dylib
+*.dll
 
-# Files that might appear in the root of a volume
-.DocumentRevisions-V100
-.fseventsd
-.Spotlight-V100
-.TemporaryItems
-.Trashes
-.VolumeIcon.icns
+# Compiled Static libraries
+*.lai
+*.la
+*.a
+*.lib
 
-# Directories potentially created on remote AFP share
-.AppleDB
-.AppleDesktop
-Network Trash Folder
-Temporary Items
-.apdisk
+# Executables
+*.exe
+*.out
+*.app
+
+# Project
+.vs/
+
+# zip
+*.zip
+
+bin/
+
+

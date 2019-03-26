@@ -1,0 +1,126 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="GameSystem">
+      <UniqueIdentifier>{b7c1fbe5-a1fe-4b14-9b49-3e052d06171b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Platform">
+      <UniqueIdentifier>{38c736f1-a2e5-40d4-9419-2655d587bac1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Policies">
+      <UniqueIdentifier>{f2334dc2-b473-47d6-9a01-4fa51873eb83}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utilities">
+      <UniqueIdentifier>{cd184234-c3b4-4e92-b2ff-1e9f1c3aab28}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utilities\CountedReference">
+      <UniqueIdentifier>{d2c16fcb-da6a-48d7-81c3-8005c545248b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utilities\LinkedReference">
+      <UniqueIdentifier>{27e409f2-8361-426b-b9e8-5099bb772a5c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Dynamic">
+      <UniqueIdentifier>{d7e5becb-eb4e-43b3-91a9-9470c5302e6d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Network">
+      <UniqueIdentifier>{345ada47-bd99-42b3-b5b7-c6ea3fd1a61f}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\src\framework\GameSystem\Grid.h">
+      <Filter>GameSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\framework\GameSystem\GridLoader.h">
+      <Filter>GameSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\framework\GameSystem\GridReference.h">
+      <Filter>GameSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\framework\GameSystem\GridRefManager.h">
+      <Filter>GameSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\framework\GameSystem\NGrid.h">
+      <Filter>GameSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\framework\GameSystem\TypeContainer.h">
+      <Filter>GameSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\framework\GameSystem\TypeContainerFunctions.h">
+      <Filter>GameSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\framework\GameSystem\TypeContainerVisitor.h">
+      <Filter>GameSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\framework\Platform\CompilerDefs.h">
+      <Filter>Platform</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\framework\Platform\Define.h">
+      <Filter>Platform</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\framework\Policies\CreationPolicy.h">
+      <Filter>Policies</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\framework\Policies\ObjectLifeTime.h">
+      <Filter>Policies</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\framework\Policies\Singleton.h">
+      <Filter>Policies</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\framework\Policies\SingletonImp.h">
+      <Filter>Policies</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\framework\Policies\ThreadingModel.h">
+      <Filter>Policies</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\framework\Utilities\ByteConverter.h">
+      <Filter>Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\framework\Utilities\Callback.h">
+      <Filter>Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\framework\Utilities\EventProcessor.h">
+      <Filter>Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\framework\Utilities\LinkedList.h">
+      <Filter>Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\framework\Utilities\TypeList.h">
+      <Filter>Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\framework\Utilities\UnorderedMap.h">
+      <Filter>Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\framework\Utilities\CountedReference\Reference.h">
+      <Filter>Utilities\CountedReference</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\framework\Utilities\CountedReference\ReferenceHolder.h">
+      <Filter>Utilities\CountedReference</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\framework\Utilities\CountedReference\ReferenceImpl.h">
+      <Filter>Utilities\CountedReference</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\framework\Utilities\LinkedReference\Reference.h">
+      <Filter>Utilities\LinkedReference</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\framework\Utilities\LinkedReference\RefManager.h">
+      <Filter>Utilities\LinkedReference</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\framework\Dynamic\FactoryHolder.h">
+      <Filter>Dynamic</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\framework\Dynamic\ObjectRegistry.h">
+      <Filter>Dynamic</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\framework\Network\SocketDefines.h">
+      <Filter>Network</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\src\framework\Policies\ObjectLifeTime.cpp">
+      <Filter>Policies</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\framework\Utilities\EventProcessor.cpp">
+      <Filter>Utilities</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
